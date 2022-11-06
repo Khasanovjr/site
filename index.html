@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё резюме</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card info">
+            <img src="img/1.JPG" class = "photo" alt="Фото - Салават">
+            <div class="info-text">
+                <h2>Салават Хасанов</h2>
+                <p class="card-info">Я изучаю программирование на курсах у Владилена Минина. В свободное время люблю играть в волейбол, смотреть аниме и читать </p>
+                <h4>Список социальных сетей</h4>
+            <a href="instagram.com/khasanovjr">Instagram</a>
+            <a href="https://t.me/khasanovjr">Telegram</a>
+        </div>
+        </div>
+        <div class="card hobby">
+            <h2>Мои хобби</h2>
+            <ul>
+                <li>Волейбол</li>
+                <li>Чтение</li>
+                <li>Аниме</li>
+                <li>Настолки</li>
+            </ul>
+        </div>
+        <div class="card job">
+            <h2>Опыт работы</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <td>Тинькофф</td>
+                            <td>Специалист поддержки</td>
+                            <td>08.22-наст.время</td>
+                        </tr>
+                        <tr>
+                            <td>Финист-софт</td>
+                            <td>Специалист поддержки</td>
+                            <td>04.22 - 08.22</td>
+                        </tr>
+                        <tr>
+                            <td>Pi-data</td>
+                            <td>Специалист поддержки</td>
+                            <td>04.21-04.22</td>
+                        </tr>
+                        <tr>
+                            <td>Teleperformance</td>
+                            <td>Специалист поддержки</td>
+                            <td>08.17-04.21</td>
+                        </tr>
+                    </tbody>
+            </table>
+        </div>
+        <div class="card contact">
+            <h2>Связаться со мной</h2>
+            <form action="/">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя" >
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email" >
+                    </div>
+                </div>
+                <div class="form-group">  
+                    <label for="textarea">Ваше сообщение:</label>
+                    <textarea id="textarea" placeholder="Введите сообщение"></textarea>
+                </div>  
+                    <button class="btn" type="submit">Отправить!</button>
+            </form>
+        </div>        
+    </div>    
+</body>
+</html>
