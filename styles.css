@@ -12,6 +12,7 @@ body{
     max-width: 200px;
     border-radius: 50%;
     border: 7px solid rgb(197, 226, 252);
+    padding: 10px;
 }
 .photo:hover{
     max-width: 300px;
