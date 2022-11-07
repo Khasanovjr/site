@@ -104,6 +104,13 @@ table tr:nth-child(even){
     transition: 2s; 
     font-style: oblique;
 }
+.arrow_img{
+    max-width: 70px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
 
 @media(max-width:600px){
     .info{
